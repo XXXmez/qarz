@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Oswald', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.d1 {
+    color: white;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/file/img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+menu {
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    background-color: #333945;
+}
+.menu-fixed {
+    width: 80%;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    width: 80%;
+    height: 80%;
+}
+.flex-dir {
+    flex-direction: column;
+}
+.title-content, .price-content, .button-content {
+    width: 100%;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.just-c-sb {
+    justify-content: space-between;
+}
+.just-c-sa {
+    justify-content: space-around;
+}
+.text-title {
+    font-size: 38px;
+    text-align: center;
+    width: 80%;
+}
+.black-fon {
+    background-color: #2c3544;
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.product-description {
+    width: 100%;
+    justify-content: space-around;
+}
+.buy-button {
+    width: 140px;
+    height: 50px;
+    background-color: #ffd308;
+    border-radius: 25px;
+}
+.buy-button > span {
+    font-size: 25px;
+}
+.product-container, .backcall, .reviews-description, .product-order {
+    width: 80%;
+}
+.product-card {
+    width: 30%;
+    border: 1px dotted #2c3544;
+}
+.imgCard {
+    width: 100%;
+}
+.catalog-content, .reviews-content, .price-content, .tit-ord, .button-content   {
+    padding-top: 30px;
+}
+.our-advantages, .catalog, .reviews, .order, footer, .back-call {
+    padding-top: 50px;
+}
+.product-performance {
+    width: 160px;
+    height: 40px;
+    background-color: #ffd308;
+}
+.product-text {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.product-button {
+    width: 80px;
+    height: 40px;
+    background: #ff4343;
+}
+
+
+.product-advantages {
+    width: 80%;
+    font-size: 25px;
+}
+
+.button-backcall {
+    width: 350px;
+    height: 55px;
+    background-color: #ffd308;
+    border-radius: 7px;
+    font-size: 23px;
+}
+.border-card {
+    padding: 10px;
+}
+.otz {
+    font-size: 13px;
+    font-weight: 900;
+}
+.avatar-reviews {
+    width: 70%;
+}
+
+.cell-tabl {
+    height: 100px;
+    margin-bottom: 2px;
+}
+.ico-cell, .text-cell {
+    height: 100px;
+    background-color: #d0ab02;
+}
+.ico-cell {
+    width: 150px;
+}
+.text-cell {
+    width: 450px;
+    margin-left: 2px;
+    font-size: 23px;
+}
+.order-container {
+    background-color: #ffd308;
+}
+.cell-paragraph {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #ffd308;
+    color: #9c8001;
+    font-weight: 500;
+}
+.order-container {
+    padding-bottom: 50px;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 55px;
+    background-color: #2c3544;
+    color: white;
+}
